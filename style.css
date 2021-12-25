@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Khmer:wght@300&display=swap');
+
+*{
+    font-family: 'Noto Serif Khmer', serif;
+}
+#slideshow
+{
+    position: relative;
+}
+.text{
+    position: absolute;
+    color: white;
+    display: block;
+    font-weight: bold;
+    text-shadow: 3px 1px rgb(2, 127, 37);
+    transform: translate(-15%, -30%);
+    text-align: center;
+    top: 30%;
+    left: 25%;
+
+}
+.text h4{
+    text-align: center;
+    color: lightgray;
+}
+.text p{
+    text-align: center;
+    color: white;
+}
